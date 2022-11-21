@@ -15,7 +15,7 @@ We analyzed Kickstarter campaigns and visualized their data to better communicat
 
 ![PivotTable_Theater_Outcomes](https://github.com/willmino/kickstarter-analysis/blob/main/PivotTable_Theater_Outcomes.png)
 
-- We then generated a corresponding line chart with markers called 'Outcomes Based on Launch Date'. This chart had months, including data from all years, on the x-axis, and the total number of either 'successful', 'failed', or 'canceled' campaign outcomes per month on the y-axis. 
+- We then generated a corresponding line chart with markers called 'Theater_Outcomes_vs_Launch'. This chart had months, including data from all years, on the x-axis, and the total number of either 'successful', 'failed', or 'canceled' campaign outcomes per month on the y-axis. 
 
 ![Theatre_Outcomes_Based_on_Launch_date](https://github.com/willmino/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
 
@@ -23,7 +23,7 @@ We analyzed Kickstarter campaigns and visualized their data to better communicat
 
 ### Analysis of Outcomes Based on Goals
 
-- We also wanted to make suggestions for Louise by analyzing how funding goal ranges may have contributed to certain campaign outcomes. We performed this analysis by creating the following table below. First, the `=COUNTIFS()` function was used to scan columns of the Kickstarter worksheet to find specific counts of data which met certain criteria. For each funding goal range, the `=COUNTIFS()` function looked for data which met the funding foal range criteria, along with meeting the subcategory 'play' criteria, and the corresponding outcomes crtieria. We then used the `=SUM()` function to determine the total number of all outcomes for campaigns within the designated funding goal range. The percentage of 'successful', 'failed', and 'canceled' campaign outcomes out of total outcomes per funding goal range were determined as well. 
+- We also wanted to make suggestions for Louise by analyzing how funding goal ranges may have contributed to certain campaign outcomes. We performed this analysis by creating the following table below. First, the `=COUNTIFS()` function was used to scan columns of the Kickstarter worksheet to find specific counts of data which met certain criteria. For each funding goal range, the `=COUNTIFS()` function looked for data which met the funding goal range criteria, along with meeting the subcategory 'play' criteria, and the corresponding outcomes crtieria. We then used the `=SUM()` function to determine the total number of all outcomes for campaigns within the designated funding goal range. The percentage of 'successful', 'failed', and 'canceled' campaign outcomes out of total outcomes per funding goal range were determined as well. 
 
 ![Outcomes_v_Goals_Table](https://github.com/willmino/kickstarter-analysis/blob/main/Outcomes_v_Goals_Table.png)
 
